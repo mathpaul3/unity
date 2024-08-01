@@ -1,0 +1,52 @@
+.BLOCKS_NNP, .BLOCKS_NOUN, .BLOCKS_VERB {
+    list-style : none;
+    display: flex;
+    height: 43px;
+}
+.BLOCKS_TITLE {
+    width: 120px;
+    margin: 10px 0px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #565656;
+}
+
+.can {
+    padding: 8px 13px 0px 13px;
+    margin-right: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #565656;
+    border-radius: 5px;
+}
+.cant {
+    color: red;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    background: None;
+    border: 3px solid #FF7474;
+    border-radius: 21.5px;
+}
+.BLOCKS_NOUN .can {
+    background-color: #D4D67C;
+}
+.BLOCKS_VERB .can {
+    background-color: #FF9978;
+}
+
+
+.WordBlock {
+    margin-top: 50px;
+    margin-left: 25%;
+}

@@ -1,0 +1,12 @@
+.fbx_loader { margin-top: 123px; }
+.fbx_loader div {
+    margin: 0 auto;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.video {
+    border-radius: 5px;
+}
+.fbx_loader canvas { display: block; }
